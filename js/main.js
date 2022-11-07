@@ -46,7 +46,7 @@ for(let i = 0; i < members.length; i++){
     const listItem = `
     <div class="card">
         <li>
-            <img src="../img/${currentMember.image}"></img>
+            <img src="img/${currentMember.image}"></img>
             <div class="member-infos-container">
                 <p>${currentMember.firstName}</p>
                 <p>${currentMember.lastName}</p>
