@@ -38,5 +38,19 @@ const members = [
         image: "barbara-ramos-graphic-designer.jpg"
     },
 
-
 ];
+
+for(let i = 0; i < members.length; i++){
+    console.log(members[i]);
+    const currentMember = members[i];
+    const listItem = `
+        <li>
+            <p>${currentMember.firstName}<p>
+            <p>${currentMember.lastName}<p>
+            <p>${currentMember.role}<p>
+            <p>${currentMember.image}<p>
+        </li>
+    `;
+
+    document.getElementById("member-list").innerHTML += listItem;
+}
