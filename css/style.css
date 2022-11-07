@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    background-color: #6b5b95;
+    width: 40%;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+}
+
+img{
+    float: left;
+    border-radius: 15px;
+}

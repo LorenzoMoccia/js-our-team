@@ -44,12 +44,16 @@ for(let i = 0; i < members.length; i++){
     console.log(members[i]);
     const currentMember = members[i];
     const listItem = `
+    <div class="card">
         <li>
-            <p>${currentMember.firstName}</p>
-            <p>${currentMember.lastName}</p>
-            <p>${currentMember.role}</p>
             <img src="../img/${currentMember.image}"></img>
+            <div class="member-infos-container">
+                <p>${currentMember.firstName}</p>
+                <p>${currentMember.lastName}</p>
+                <p>${currentMember.role}</p>
+            </div> 
         </li>
+    </div>
     `;
 
     document.getElementById("member-list").innerHTML += listItem;
