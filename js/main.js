@@ -45,10 +45,10 @@ for(let i = 0; i < members.length; i++){
     const currentMember = members[i];
     const listItem = `
         <li>
-            <p>${currentMember.firstName}<p>
-            <p>${currentMember.lastName}<p>
-            <p>${currentMember.role}<p>
-            <p>${currentMember.image}<p>
+            <p>${currentMember.firstName}</p>
+            <p>${currentMember.lastName}</p>
+            <p>${currentMember.role}</p>
+            <img src="../img/${currentMember.image}"></img>
         </li>
     `;
 
